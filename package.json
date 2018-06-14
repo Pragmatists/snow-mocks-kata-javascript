@@ -2,9 +2,13 @@
   "name": "snow-mocks-kata-javascript",
   "version": "0.0.2",
   "scripts": {
-    "test": "jest"
+    "test": "karma start karma.conf.js"
   },
   "devDependencies": {
-    "jest": "^22.0.5"
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.2",
+    "karma-jasmine": "^1.1.2",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "phantomjs": "^2.1.7"
   }
 }
