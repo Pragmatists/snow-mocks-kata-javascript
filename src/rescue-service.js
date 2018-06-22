@@ -5,6 +5,9 @@ function RescueService(weatherForecastService, municipalServices, pressService) 
     };
 
     function checkForecastAndRescue() {
+        if(weatherForecastService.getTemperatureInCelsius() < 0){
+            municipalServices.sendSander()
+        }
     }
 
 }
