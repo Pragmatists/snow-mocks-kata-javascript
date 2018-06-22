@@ -5,3 +5,7 @@ function PressService() {
         }
     }
 }
+
+if (typeof exports !== 'undefined') {
+    module.exports = PressService;
+}

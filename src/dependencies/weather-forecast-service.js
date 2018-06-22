@@ -8,3 +8,7 @@ function WeatherForecastService() {
         }
     }
 }
+
+if (typeof exports !== 'undefined') {
+    module.exports = WeatherForecastService;
+}

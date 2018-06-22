@@ -5,7 +5,10 @@ function RescueService(weatherForecastService, municipalServices, pressService) 
     };
 
     function checkForecastAndRescue() {
-
     }
 
+}
+
+if (typeof exports !== 'undefined') {
+    module.exports = RescueService;
 }

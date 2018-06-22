@@ -8,3 +8,7 @@ function MunicipalService() {
         }
     }
 }
+
+if (typeof exports !== 'undefined') {
+    module.exports = MunicipalService;
+}
