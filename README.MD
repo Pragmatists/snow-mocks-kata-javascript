@@ -22,6 +22,10 @@ Zaimplementuj SnowRescueService - to jest twój System Under Test. Wszystkie poz
 
 ### przydatne informacje
 
-https://facebook.github.io/jest/docs/en/mock-functions.html  
-https://facebook.github.io/jest/docs/en/expect.html#tohavebeencalled
+*Mocking in Jest:*
+https://jestjs.io/docs/en/mock-functions.html  
+
+*Jest assertions:*
+https://jestjs.io/docs/en/expect.html#methods
+https://jestjs.io/docs/en/expect.html#tohavebeencalled
 
