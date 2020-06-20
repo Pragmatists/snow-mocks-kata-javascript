@@ -5,6 +5,11 @@
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "^26.0.1"
+    "jest": "^26.0.1",
+    "@stryker-mutator/core": "^3.3.0",
+    "@stryker-mutator/javascript-mutator": "^3.3.0",
+    "@stryker-mutator/jest-runner": "^3.3.0",
+    "stryker-cli": "^1.0.0",
+    "stryker-intellij-reporter": "^1.0.1"
   }
 }

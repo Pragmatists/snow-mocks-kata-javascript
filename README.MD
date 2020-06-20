@@ -6,6 +6,11 @@ Snow Mocks
 `npm run test` - run all tests  
 `npm run test--collect-coverage`  - run all test with code coverage  
 
+## Mutation testing with Stryker
+https://stryker-mutator.io/stryker/quickstart  
+
+`stryker run`  
+
 ## Wymagania
 
 Zaimplementuj SnowRescueService - to jest twój System Under Test. Wszystkie pozostałe obiekty potraktuj jako zależności.
@@ -22,10 +27,10 @@ Zaimplementuj SnowRescueService - to jest twój System Under Test. Wszystkie poz
 
 ### przydatne informacje
 
-*Mocking in Jest:*
+*Mocking in Jest:*  
 https://jestjs.io/docs/en/mock-functions.html  
 
-*Jest assertions:*
-https://jestjs.io/docs/en/expect.html#methods
+*Jest assertions:*  
+https://jestjs.io/docs/en/expect.html#methods  
 https://jestjs.io/docs/en/expect.html#tohavebeencalled
 
